@@ -1,0 +1,77 @@
+Page Table Entries: 8192 24576 32768 28672 4096 16384 20480 
+Page Size = 4096
+
+******************************************
+
+Translating from Logical to Physical Address
+
+Logical Address: 3567
+PageTableIndex = 0  |  Offset = 3567
+Corresponding Physical Address = 11759
+
+Logical Address: 6578
+PageTableIndex = 1  |  Offset = 2482
+Corresponding Physical Address = 27058
+
+Logical Address: 9872
+PageTableIndex = 2  |  Offset = 1680
+Corresponding Physical Address = 34448
+
+Logical Address: 14356
+PageTableIndex = 3  |  Offset = 2068
+Corresponding Physical Address = 30740
+
+Logical Address: 17200
+PageTableIndex = 4  |  Offset = 816
+Corresponding Physical Address = 4912
+
+Logical Address: 20481
+PageTableIndex = 5  |  Offset = 1
+Corresponding Physical Address = 16385
+
+Logical Address: 25000
+PageTableIndex = 6  |  Offset = 424
+Corresponding Physical Address = 20904
+
+Logical Address: 30100
+PageTableIndex = 7  |  Offset = 1428
+Corresponding Physical Address = 1428
+
+Logical Address: 35789
+PageTableIndex = 8  |  Page Fault: Corresponding Physical Address Not in Memory
+
+******************************************
+
+Translating from Physical to Logical Address
+Physical Address =  352 |  Page Frame = 0
+Page Frame not in Page Table => Physical Address currently not allocated to the process
+
+Physical Address: 5000
+PageFrame = 1 | PageTableIndex =  4  |  LogicalPage = 16384 |  Offset = 904
+Corresponding Logical Address is = 17288
+
+Physical Address: 34500
+PageFrame = 8 | PageTableIndex =  2  |  LogicalPage = 8192 |  Offset = 1732
+Corresponding Logical Address is = 9924
+
+Physical Address: 29756
+PageFrame = 7 | PageTableIndex =  3  |  LogicalPage = 12288 |  Offset = 1084
+Corresponding Logical Address is = 13372
+
+Physical Address: 18500
+PageFrame = 4 | PageTableIndex =  5  |  LogicalPage = 20480 |  Offset = 2116
+Corresponding Logical Address is = 22596
+
+Physical Address: 22450
+PageFrame = 5 | PageTableIndex =  6  |  LogicalPage = 24576 |  Offset = 1970
+Corresponding Logical Address is = 26546
+
+Physical Address =  12345 |  Page Frame = 3
+Page Frame not in Page Table => Physical Address currently not allocated to the process
+
+Physical Address: 30000
+PageFrame = 7 | PageTableIndex =  3  |  LogicalPage = 12288 |  Offset = 1328
+Corresponding Logical Address is = 13616
+
+Physical Address =  45890 |  Page Frame = 11
+Page Frame not in Page Table => Physical Address currently not allocated to the process
